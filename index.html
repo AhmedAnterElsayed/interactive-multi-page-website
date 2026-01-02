@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <!-- Header with Navigation -->
+    <header>
+        <h1>My Interactive Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Welcome to the Home Page</h2>
+        <p>This is the home page of my interactive website. Click the button below to see a simple action:</p>
+		<p>This is the home page.</p>
+
+<img src="image/quranimage.jpg" alt="Welcome image" width="300">
+
+<h3>Intro Audio</h3>
+<audio controls>
+    <source src="audio/074.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
+
+        <button onclick="alert('Hello! You clicked me!')">Click Me</button>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ahmed Anter Elsayed</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+	<h2>Join the Website</h2>
+
+<form id="userForm" onsubmit="saveUser(event)">
+
+    <label>
+        Name:
+        <input type="text" id="name" required>
+		
+
+
+    </label>
+    <br><br>
+
+    <label>
+        Email:
+        <input type="email" id="email" required>
+    </label>
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<p id="result"></p>
+
+
+
+
+    
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,317 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #334155;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+}
+
+/* Cards */
+main h2 {
+    margin-bottom: 15px;
+}
+
+main p {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px;
+    background-color: #1e293b;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+main h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+main h3 {
+    margin-top: 25px;
+    color: #34495e;
+}
+
+main ul {
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 8px;
+}
+.profile-box {
+    display: flex;
+    flex-direction: column; /* stack image, name, text */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.profile-box img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+    margin-bottom: 25px;
+}
+
+.profile-box h2 {
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+.profile-box {
+    transition: transform 0.3s, box-shadow 0.3s; /* smooth animation */
+}
+
+.profile-box:hover {
+    transform: translateY(-5px); /* lifts the box slightly */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* stronger shadow */
+}
+
+..profile-box {
+    display: flex;
+    flex-direction: column; /* stack image, name, text */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.profile-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #2c3e50;
+    margin-bottom: 15px;
+}
+
+.profile-box h2 {
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+.profile-box p {
+    line-height: 1.6;
+    color: #334155;
+}
+.profile-box .social-links {
+    margin-top: 15px;
+}
+
+.profile-box .social-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: #1e293b;
+    color: white;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.profile-box .social-links a:hover {
+    background-color: #334155;
+    transform: scale(1.05);
+}
+.profile-box .social-links {
+    margin-top: 15px;
+}
+
+.profile-box .social-links a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color: #1e293b;
+    color: white;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.profile-box .social-links a:hover {
+    background-color: #334155;
+    transform: scale(1.05);
+}
+.profile-box img {
+    width: 350px;       /* Adjust size as you like */
+    height: 350px;      /* Keep it square */
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: cover;  /* Keeps the image proportional */
+    border: 4px solid #007bff; /* Optional: colored border */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Adds shadow */
+    display: block;
+    margin: 0 auto 15px auto; /* Center image and add spacing below */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.profile-box img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3); /* Shadow grows on hover */
+}
+
+
+.profile-box h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #1e293b; /* Dark blue-gray for elegance */
+    margin-bottom: 8px;
+}
+
+.profile-box p {
+    text-align: center;
+    font-size: 16px;
+    color: #4b5563; /* Soft gray for readability */
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.profile-box .contact-info {
+    text-align: center;
+    font-size: 14px;
+    color: #111827;
+    margin-top: 10px;
+}
+
+.profile-box .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.profile-box .contact-info a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline;
+}
+.profile-box {
+    background-color: #ffffff; /* White card background */
+    max-width: 800px;          /* Keep it a manageable width */
+    margin: 20px auto;         /* Center horizontally with margin */
+    padding: 25px 20px;        /* Space inside the card */
+    border-radius: 15px;       /* Rounded corners for smooth look */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    text-align: center;        /* Center everything inside */
+    transition: transform 0.3s, box-shadow 0.3s; /* Hover animation */
+}
+
+/* Optional: Add hover effect for a subtle lift */
+.profile-box:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15); /* Stronger shadow */
+}
+
