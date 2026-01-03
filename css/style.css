@@ -1,335 +1,260 @@
-/* Reset */
+/* ================================
+   GLOBAL RESET
+================================ */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Body */
-body {
-    background-color: #f4f6f8;
-    color: #333;
-    line-height: 1.6;
-}
-
-/* Header */
-header {
-    background-color: #1e293b;
-    color: white;
-    padding: 20px;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-/* Navigation */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 6px 12px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-nav a:hover {
-    background-color: #334155;
-}
-
-/* Main content */
-main {
-    padding: 30px;
-}
-
-/* Cards */
-main h2 {
-    margin-bottom: 15px;
-}
-
-main p {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* Footer */
-footer {
-    margin-top: 40px;
-    text-align: center;
-    padding: 15px;
-    background-color: #1e293b;
-    color: white;
-}
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f8;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-nav a {
-    text-decoration: none;
-    margin-right: 15px;
-    color: #333;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #007bff;
-}
-button {
-    background: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: transform 0.2s, background 0.2s;
-}
-
-button:hover {
-    background: #0056b3;
-    transform: scale(1.05);
-}
-input {
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-input:focus {
-    border-color: #007bff;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0,123,255,0.5);
-}
-main {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    line-height: 1.8;
-}
-
-main h2 {
-    color: #2c3e50;
-    margin-bottom: 10px;
-}
-
-main h3 {
-    margin-top: 25px;
-    color: #34495e;
-}
-
-main ul {
-    padding-left: 20px;
-}
-
-main ul li {
-    margin-bottom: 8px;
-}
-.profile-box {
-    display: flex;
-    flex-direction: column; /* stack image, name, text */
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    max-width: 400px;
-    margin: 20px auto;
-}
-
-.profile-box img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #2c3e50;
-    margin-bottom: 25px;
-}
-
-.profile-box h2 {
-    margin-bottom: 10px;
-    color: #1e293b;
-}
-.profile-box {
-    transition: transform 0.3s, box-shadow 0.3s; /* smooth animation */
-}
-
-.profile-box:hover {
-    transform: translateY(-5px); /* lifts the box slightly */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* stronger shadow */
-}
-
-..profile-box {
-    display: flex;
-    flex-direction: column; /* stack image, name, text */
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    max-width: 400px;
-    margin: 20px auto;
-}
-
-.profile-box img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #2c3e50;
-    margin-bottom: 15px;
-}
-
-.profile-box h2 {
-    margin-bottom: 10px;
-    color: #1e293b;
-}
-
-.profile-box p {
-    line-height: 1.6;
-    color: #334155;
-}
-.profile-box .social-links {
-    margin-top: 15px;
-}
-
-.profile-box .social-links a {
-    text-decoration: none;
-    margin-right: 10px;
-    padding: 6px 12px;
-    border-radius: 5px;
-    background-color: #1e293b;
-    color: white;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.profile-box .social-links a:hover {
-    background-color: #334155;
-    transform: scale(1.05);
-}
-.profile-box .social-links {
-    margin-top: 15px;
-}
-
-.profile-box .social-links a {
-    text-decoration: none;
-    margin-right: 10px;
-    padding: 6px 12px;
-    border-radius: 5px;
-    background-color: #1e293b;
-    color: white;
-    transition: background 0.3s, transform 0.3s;
-}
-
-.profile-box .social-links a:hover {
-    background-color: #334155;
-    transform: scale(1.05);
-}
-.profile-box img {
-    width: 350px;       /* Adjust size as you like */
-    height: 350px;      /* Keep it square */
-    border-radius: 50%; /* Makes it a circle */
-    object-fit: cover;  /* Keeps the image proportional */
-    border: 4px solid #007bff; /* Optional: colored border */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Adds shadow */
-    display: block;
-    margin: 0 auto 15px auto; /* Center image and add spacing below */
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
-}
-
-.profile-box img:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    box-shadow: 0 8px 25px rgba(0,0,0,0.3); /* Shadow grows on hover */
-}
-
-
-.profile-box h2 {
-    text-align: center;
-    font-size: 24px;
-    color: #1e293b; /* Dark blue-gray for elegance */
-    margin-bottom: 8px;
-}
-
-.profile-box p {
-    text-align: center;
-    font-size: 16px;
-    color: #4b5563; /* Soft gray for readability */
-    margin-bottom: 15px;
-    line-height: 1.5;
-}
-
-.profile-box .contact-info {
-    text-align: center;
-    font-size: 14px;
-    color: #111827;
-    margin-top: 10px;
-}
-
-.profile-box .contact-info a {
-    color: #007bff;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
-
-.profile-box .contact-info a:hover {
-    color: #0056b3; /* Darker blue on hover */
-    text-decoration: underline;
-}
-.profile-box {
-    background-color: #ffffff; /* White card background */
-    max-width: 800px;          /* Keep it a manageable width */
-    margin: 20px auto;         /* Center horizontally with margin */
-    padding: 25px 20px;        /* Space inside the card */
-    border-radius: 15px;       /* Rounded corners for smooth look */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Soft shadow for depth */
-    text-align: center;        /* Center everything inside */
-    transition: transform 0.3s, box-shadow 0.3s; /* Hover animation */
-}
-
-/* Optional: Add hover effect for a subtle lift */
-.profile-box:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15); /* Stronger shadow */
-}
-
-nav ul {
-  list-style-type: none;
+  margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================================
+   BODY
+================================ */
+body {
+  background-color: #f4f6f8;
+  color: #1f2937;
+  line-height: 1.7;
+}
+
+/* ================================
+   HEADER & NAVIGATION
+================================ */
+header {
+  background-color: #1e293b;
+  padding: 20px 40px;
+}
+
+nav {
   display: flex;
-  gap: 20px;
-  background-color: #f0f0f0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  padding: 8px 12px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: color 0.3s, background-color 0.3s;
 }
 
 nav ul li a:hover {
-  color: orange;
+  background-color: #334155;
+}
+
+/* ================================
+   MAIN CONTENT
+================================ */
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+main h1,
+main h2 {
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+main p {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ================================
+   HERO SECTION (HOME)
+================================ */
+.hero {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 650px;
+  margin-bottom: 30px;
+}
+
+/* ================================
+   BUTTONS
+================================ */
+button,
+.btn {
+  background-color: #1e293b;
+  color: #ffffff;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #334155;
+  transform: translateY(-2px);
+}
+
+/* ================================
+   FORMS
+================================ */
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border-color: #1e293b;
+  outline: none;
+  box-shadow: 0 0 6px rgba(30,41,59,0.3);
+}
+
+/* ================================
+   PROFILE / CARD
+================================ */
+.profile-box {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 35px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+}
+
+.profile-box img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #1e293b;
+  margin-bottom: 20px;
+}
+
+.profile-box h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.profile-box p {
+  font-size: 17px;
+  color: #4b5563;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 15px auto;
+}
+
+/* ================================
+   SOCIAL LINKS
+================================ */
+.profile-box .social-links {
+  margin-top: 15px;
+}
+
+.profile-box .social-links a {
+  text-decoration: none;
+  margin: 0 8px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background-color: #1e293b;
+  color: #ffffff;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.profile-box .social-links a:hover {
+  background-color: #334155;
+  transform: scale(1.05);
+}
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+/* ================================
+   CENTER FORM AT BOTTOM
+================================ */
+.form-section {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+form input,
+form button {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* Center the Join the Website title */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-block {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.content-block h2 {
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+.content-block p {
+  font-size: 17px;
+  color: #374151;
+  margin-bottom: 15px;
+  line-height: 1.7;
 }

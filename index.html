@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<nav>
-  <ul>
+
+<nav class="navbar">
+  <div class="logo">Ahmed Anter Elsayed</div>
+  <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
+
+
+
 
 <div class="container">
     <!-- Header with Navigation -->
@@ -30,9 +35,72 @@
 
     <!-- Main Content -->
     <main>
-        <h2>Welcome to the Home Page</h2>
-        <p>This is the home page of my interactive website. Click the button below to see a simple action:</p>
-		<p>This is the home page.</p>
+        
+		
+		<section class="hero">
+  <h1>Educator • Data Science & AI Enthusiast</h1>
+  <p>
+    I build educational experiences that combine clear thinking,
+    strong fundamentals, and modern technology.
+  </p>
+  <section class="content-block">
+  <h2>Education with Purpose</h2>
+  <p>
+    I view education as a process of building understanding, not collecting information.
+    Real learning happens when ideas are explained clearly, connected logically,
+    and given the time they need to settle.
+  </p>
+  <p>
+    My teaching focuses on fundamentals, clarity, and honest thinking.
+    Whether working with mathematics, data analysis, or technology,
+    I aim to guide learners toward confidence through understanding,
+    not shortcuts or memorization.
+  </p>
+</section>
+
+<section class="content-block">
+  <h2>Data Science with Understanding</h2>
+  <p>
+    My work in data science is centered on understanding data before applying tools.
+    Models and algorithms are only meaningful when the assumptions behind them
+    are clearly understood.
+  </p>
+  <p>
+    I emphasize structured thinking, careful analysis, and interpretation of results.
+    This approach helps learners move beyond surface-level usage
+    and develop skills that remain valid as tools and technologies change.
+  </p>
+</section>
+
+<section class="content-block">
+  <h2>Commitment to Growth</h2>
+  <p>
+    Learning is a long-term journey. It requires patience, perseverance,
+    and the willingness to revisit fundamentals until they become solid.
+  </p>
+  <p>
+    I bring this same dedication to my teaching and projects,
+    believing that consistent effort and honest work always lead to meaningful results.
+  </p>
+</section>
+<section class="content-block">
+  <h2>Online Education Done Right</h2>
+  <p>
+    Online education is most effective when it preserves the discipline
+    and depth of traditional learning while offering flexibility and focus.
+    It should never reduce standards or oversimplify ideas.
+  </p>
+  <p>
+    I design online learning experiences that emphasize clarity,
+    structured progression, and independent thinking,
+    allowing learners to engage deeply without unnecessary distraction.
+  </p>
+</section>
+>
+
+  <a href="about.html" class="btn">Learn More</a>
+</section>
+
 
 <img src="image/quranimage.jpg" alt="Welcome image" width="300">
 
@@ -52,8 +120,10 @@
 
     <script src="js/main.js"></script>
 	<h2>Join the Website</h2>
+	
+	<div class="form-section">
 
-<form id="userForm" onsubmit="saveUser(event)">
+<form  id="userForm" onsubmit="saveUser(event)">
 
     <label>
         Name:
@@ -72,6 +142,7 @@
 
     <button type="submit">Submit</button>
 </form>
+</div>
 
 <p id="result"></p>
 
